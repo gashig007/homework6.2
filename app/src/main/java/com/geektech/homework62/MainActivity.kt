@@ -33,14 +33,14 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        binding.btnRandom.setOnClickListener{
+        binding.btnRandom.setOnClickListener {
             val random = (0 until listUrl.size - 1).random()
             Glide.with(this).load(listUrl[random])
                 .into(binding.ivGoogle)
         }
     }
 
-    fun random(){
+    fun random() {
         listUrl.add("https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/PNG_transparency_demonstration_1.png/240px-PNG_transparency_demonstration_1.png")
         listUrl.add("https://png.pngtree.com/png-vector/20201229/ourmid/pngtree-an-adult-tabby-cat-png-image_2664939.jpg")
         listUrl.add("https://w7.pngwing.com/pngs/235/163/png-transparent-ghost-drawing-halloween-ghost-pics-white-marine-mammal-fictional-character.png")

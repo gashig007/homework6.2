@@ -2,4 +2,5 @@
 <resources>
     <dimen name="page_dimens">16dp</dimen>
     <dimen name="long_dimens">28dp</dimen>
+    <dimen name="small_dimens">8dp</dimen>
 </resources>
