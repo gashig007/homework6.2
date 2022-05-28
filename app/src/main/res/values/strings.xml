@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">homework6.2</string>
+    <string name="todo">TODO</string>
+    <string name="submit">submit</string>
+    <string name="hint">Введите текст</string>
+    <string name="image">image</string>
+    <string name="toast">Введите текст</string>
+    <string name="error">Error</string>
+    <string name="random">random</string>
+</resources>
